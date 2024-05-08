@@ -6,13 +6,17 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+#ability {
+  text-transform: capitalize;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+#pkname {
+  text-transform: capitalize;
+}
 .pokemon_img {
   margin: auto;
   width: 50%;
